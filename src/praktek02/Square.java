@@ -3,6 +3,12 @@ public class Square {
     double sisi1;
     double sisi2;
 
+    public Square() {
+        sisi1=10;
+        sisi2=10;
+    }
+
+    
     
    void cetakInfo(){
         System.out.println("===============");
@@ -16,5 +22,8 @@ public class Square {
        double luas;
        luas = sisi1*sisi2;
        return luas;
+   }
+   void cetakLuas(){
+       System.out.println("Luasnya Adalah: "+hitungluas());
    }
 }
