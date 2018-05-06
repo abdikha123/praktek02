@@ -4,5 +4,7 @@ public class SquareAksi {
         Square s1 = new Square();
         s1.sisi1 = 8;
         s1.sisi2 = 8;
+        
+        s1.cetakInfo();
     }
 }
