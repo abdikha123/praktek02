@@ -8,6 +8,11 @@ public class Square {
         sisi2=10;
     }
 
+    public Square(double sisi1, double sisi2) {
+        this.sisi1 = sisi1;
+        this.sisi2 = sisi2;
+    }
+
     
     
    void cetakInfo(){

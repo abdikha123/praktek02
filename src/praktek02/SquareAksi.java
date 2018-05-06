@@ -8,5 +8,11 @@ public class SquareAksi {
         s1.cetakInfo();
         System.out.println("Luas Square = "+s1.hitungluas());
         s1.cetakLuas();
+        
+        Square s2 = new Square();
+        s2.cetakInfo();
+        
+        Square s3 = new Square(15,15);
+        s3.cetakInfo();
     }
 }
